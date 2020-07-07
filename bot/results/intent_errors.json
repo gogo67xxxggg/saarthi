@@ -1,0 +1,10 @@
+[
+  {
+    "text": "You can solve my problem!",
+    "intent": "appreciate",
+    "intent_prediction": {
+      "name": "ask_service_general",
+      "confidence": 0.5423751473426819
+    }
+  }
+]

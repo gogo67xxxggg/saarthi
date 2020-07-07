@@ -1,0 +1,40 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - bot_challenge
+  - deny
+  - appreciate
+  - ask_service_general
+  - ask_service_domain
+  - ask_contact
+
+entities:
+  - domain 
+
+actions:
+  - action_domain_service
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_general_service:
+  - text: "Hii, I work in numerous domains, ranging from sales, IT, finance, medical, food delivery, telecom, etc"
+
+
+  utter_contact:
+    - text: "Sure, here's my contact:\nPhone: 112223365655\nEmail: service@saarthi.com"
+
+  utter_appreciate:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

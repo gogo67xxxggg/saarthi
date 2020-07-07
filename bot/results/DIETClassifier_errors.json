@@ -1,0 +1,47 @@
+[
+  {
+    "text": "does your company help in marketing?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "marketing",
+        "entity": "domain"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to automate my customer service, do you provide such services",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "customer service",
+        "entity": "domain"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "domain",
+        "start": 22,
+        "end": 30,
+        "value": "customer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can i get in contact with the customer support",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "domain",
+        "start": 30,
+        "end": 38,
+        "value": "customer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
